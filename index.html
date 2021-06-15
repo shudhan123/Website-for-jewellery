@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Shree Raja Meera Gold</title>
+    <link rel="icon" sizes="192x192" href="images/favilogo.png">
+    <link rel="apple-touch-icon" href="images/favilogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica:Light|Arial|Poppins:Light|Raleway|Montserrat">
+    <link rel="stylesheet" type="text/css" href="./styles/w3.css">
+    <link rel="stylesheet" type="text/css" href="./styles/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/common.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+</head>
+<body>
+    <div id="goTopBtn" onclick="gotoTop();return false;" class="animated faster"><i class="fas fa-angle-up"></i></div>
+    <div class="nav-bar">
+        <div class="row">
+            <div class="logo">
+                <img src="./images/logo.png" onclick="window.location='index.html';" />
+            </div>
+            <div class="menu">
+                <p><b><a href="index.html">Home</a></b></p>
+                <p><b><a href="about.html">About</a></b></p>
+                <p><b><a href="collections.html">Collections</a></b></p>
+                <p><b><a href="gallery.html">Gallery</a></p></b>
+                <p><b><a href="contact.html">Contact</a></b></p>
+            </div>
+            <div class="options">
+                <i class="fas fa-bars" id="bars" onclick="dropDownMenuControl();return false;"></i>
+                <i class="far fa-user-circle" id="user"></i>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown animated fast">
+        <a class="nav-links" href="index.html"></i><b>Home</b></a>
+        <a class="nav-links" href="About.html"></i><b> About</b></a>
+        <a class="nav-links" href="collections.html"><b> Collections </b></a>
+        <a class="nav-links" href="gallery.html"><b>Gallery</b></a>
+        <a class="nav-links" href="contact.html"><b>Contact</b> </a>
+    </div>
+
+    
+    <div class="carousel">
+        <div id="car-1" class="car animated"></div>
+        <div id="car-2" class="car animated"></div>
+
+        <div class="switches">
+            <div class="switch" onclick="changePic(1,this);return false;"></div>
+            <div class="switch" onclick="changePic(2,this);return false;"></div>
+        </div>
+    </div>
+
+    <div class="collection">
+        <h1>Our Branches</h1>
+        <hr>
+        
+    </div>
+
+    
+
+    <div class="infograph">
+        <div class="row">
+            <div class="col">
+                <h2>Quality</h2>
+                <p>100% pure</p>
+            </div>
+            <div class="col">
+                <h2>Store Opened</h2>
+                <p>10:00AM - 9:00PM</p>
+            </div>
+            <div class="col">
+                <h2>Get In Touch</h2>
+                <p><a href="contact.html">Contact Us</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="row">
+            <div style="padding-left:auto"class="col">
+                <h2>Categories</h2>
+                <div class="sub">
+                    
+                    <div class="box">
+                        <h3><a href="#">Home</a></h3>
+                        <h3><a href="about.html">About</a></h3>
+                        <h3><a href="collections.html">Collections</a></h3>
+                        <h3><a href="gallery.html">Gallery</a></h3>
+                        <h3><a href="contact.html">Contact</a></h3>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="nest">
+                    <h2>Contacts</h2>
+                    <h3><p><i class="fas fa-at"></i> <a style="text-transform: lowercase;" href= "mailto: rajameeragoldkvp@gmail.com"> rajameeragoldkvp@gmail.com </a></p></h3>
+                    <h3><div style="display:block;"><p style="float:left;padding-right:10px"><i class="fab fa-whatsapp" class="row"></i></p><div style="float:left;padding-top:8px"onclick="location.href='https://api.whatsapp.com/send?phone=+919442248864&amp;text=Hi';" class="whatsappbutton"><i class="fa fa-whatsapp "></i>+919442248864</div></div></h3>
+                    <h3><p><i class="fas fa-phone"></i> 
+                        <a href="tel:+919443348869">+919443348869</a>
+                        </p></h3>
+                    <div class="social">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h2>Our Store</h2>
+                <p>Shop no.1,<br>Shree Raja Meera Gold, 386, Main Road, Near Bus Stand,<br>Kovilpatti, Tamilnadu 628501</p>
+                <p>Shop no.2,<br>Anandha Meera Jewellers, 236, Main Road, Near Bus Stand,<br>Sattur, Tamilnadu 626203</p>
+                <p>Shop no.3,<br>Shree Raja Meera Gold, 256, Rajapalayam Main Road, Rajaji Road, <br>Srivilliputhur, Tamilnadu 626125</p>
+                <a href="contact.html" id="store"><i class="fas fa-map-marker-alt"></i>&nbsp; Store Locator</a>
+            </div>
+        </div>
+        <center><div style="background-color: black;width:2000px"><div class="rows"style="   width: 100%;">
+            <div style="color: white;    width: 100%;" id="copyright"></div>
+            <div style="color: white;">Developed By <a href="" id="developer">Shenbaga Shudhan, Rukesh </a></div>
+        </div></center></div>
+            
+    </div>
+    
+    <script src="./js/carousel.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
